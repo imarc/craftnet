@@ -865,7 +865,7 @@ EOL;
                     ]) . '?' . $screenshot->dateModified->getTimestamp();
 
                 $thumbnailUrls[] = $screenshot->getUrl([
-                        'height' => 400,
+                        'width' => 550,
                     ]) . '?' . $screenshot->dateModified->getTimestamp();
 
                 $screenshotIds[] = $screenshot->getId();
